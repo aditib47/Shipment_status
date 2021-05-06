@@ -1,12 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import pickle
-import numpy as np
-import pandas as pd
 import uvicorn
-import os 
-from sklearn.ensemble import GradientBoostingClassifier
-
+import os
 #creating app
 app = FastAPI()
 
@@ -42,4 +38,6 @@ async def predict_shipment(data: request_body):
     
     
 if __name__=="__main__":
-    uvicorn.run(app)
+    #uvicorn.run(app)
+    uvicorn.run(app,host='127.0.0.1',port=8000)
+    
