@@ -4,8 +4,8 @@ App based on [FastApi] used to predict shipment delay status based on features l
 
 
 ## Table of contents
-* [Introduction](#introduction)
-* [Problem statement](#problem-statement)
+* [Data](#data)
+* [Introduction](#Introduction)
 * [Features used for prediction](#features-used-for-prediction)
 * [Model deployment](#model-deployment)
 * [Getting Started](#getting-started)
@@ -14,11 +14,11 @@ App based on [FastApi] used to predict shipment delay status based on features l
 * [Contributing](#contributing)
 * [Resources](#resources)
 
-## Introduction
+## Data
 The dataset used is of Product Shipment Tracking
 Link: https://www.kaggle.com/prachi13/customer-analytics
 
-## Problem statement
+## Introduction
 To build a classification model that predicts whether a shipment will be delayed or not. The target variable is 'Reached.on.Time_Y.N'.
 
 ## Features used for prediction
